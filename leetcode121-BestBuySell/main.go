@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 	a := []int{5, 1, 2, 3, 4}
-	result := bruteAlg(a)
+	result := bruteForce(a)
 	fmt.Println("result is ", result)
 }
 
-func bruteAlg(a []int) int {
+func bruteForce(a []int) int {
 	var profit int
 	for i := 0; i < len(a)-1; i++ {
 		for j := i + 1; j < len(a); j++ {
