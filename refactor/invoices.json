@@ -1,0 +1,24 @@
+{
+    "customer":"a",
+    "performance":[
+        {
+            "playId":"a",
+            "name":"1",
+            "type":"a-type",
+            "audience":10
+        },
+        {
+            "playId":"b",
+            "name":"2",
+            "type":"b-type",
+            "audience":20
+        },
+        {
+            "playId":"b",
+            "name":"3",
+            "type":"c-type",
+            "audience":30
+        }
+    ]
+
+}

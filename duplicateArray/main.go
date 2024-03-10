@@ -22,7 +22,6 @@ func bruteForce(a []int) bool {
 	for i := 0; i < len(a)-1; i++ {
 		for j := i + 1; j < len(a); j++ {
 			count++
-			count++
 			if a[i] == a[j] {
 				fmt.Printf("\nvalue is %v ", a[i])
 				flag = true
